@@ -20,10 +20,6 @@ SO THAT my account balance is accurate when I am traveling
 * To begin the application type ```npm start``` in the applications terminal to begin the express.js server. 
 * Go to [http://localhost:3001](http://localhost:3001).
 
-## Demonstration
-
-View the app via Heroku: []()
-
 ## Packages
 
 * HTML
