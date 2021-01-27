@@ -59,9 +59,9 @@ function uploadTransaction() {
                 }
             })
                 .then(response => response.json())
-                .then(ServerResponse => {
-                    if (ServerResponse.message) {
-                        throw new Error(ServerResponse);
+                .then(serverResponse => {
+                    if (serverResponse.message) {
+                        throw new Error(serverResponse);
                     }
                     // open one more transaction
                     const transaction = db.transaction(['new_transaction'], 'readwrite');
